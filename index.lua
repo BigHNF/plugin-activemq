@@ -116,14 +116,13 @@ end
 -- setup
 
 -- set default parameters if not found in param.json
-param = boundary.param or {
-    pollInterval = 5000,
-    activeMQHost = "localhost",
-    activeMQBroker = "localhost",
-    activeMQPort = "8161",
-    activeMQUser = "admin",
-    activeMQPass = "admin"
-}
+param = boundary.param or {}
+param.pollInterval = param.pollInterval or 5000
+param.activeMQHost = param.activeMQHost or "localhost"
+param.activeMQBroker = param.activeMQBroker or "localhost"
+param.activeMQPort = param.activeMQPort or 8161
+param.activeMQUser = param.activeMQUser or "admin"
+param.activeMQPass = param.activeMQPass or "admin"
 
 -- create the basic auth key for the api http requests
 authKey = "Basic " .. base64(param.activeMQUser .. ":" .. param.activeMQPass)
