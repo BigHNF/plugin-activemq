@@ -1,0 +1,165 @@
+{
+    "result": [
+        {
+            "description": "ActiveMQ - Percentage Store In Use",
+            "displayName": "ActiveMQ - Store Used",
+            "displayNameShort": "AMQ Store",
+            "name": "ACTIVEMQ_STORE_USED",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Perventage Memory In Use",
+            "displayName": "ActiveMQ - Memory Used",
+            "displayNameShort": "AMQ Memory",
+            "name": "ACTIVEMQ_MEM_USED",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Delivered",
+            "displayName": "ActiveMQ - Messages Delivered",
+            "displayNameShort": "AMQ - Msg Del",
+            "name": "ACTIVEMQ_MESSAGE_STATS_DELIVER",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Delivered Rate",
+            "displayName": "ActiveMQ - Messages Delivered Rate",
+            "displayNameShort": "AMQ - Msg Del Rate",
+            "name": "ACTIVEMQ_MESSAGE_STATS_DELIVER_DETAILS_RATE",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Delivered Get",
+            "displayName": "ActiveMQ - Messages Delivered Get",
+            "displayNameShort": "AMQ - Msg Del Get",
+            "name": "ACTIVEMQ_MESSAGE_STATS_DELIVER_GET",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Delivered Get Rate",
+            "displayName": "ActiveMQ - Messages Delivered Get Rate",
+            "displayNameShort": "AMQ - Msg Del Get Rt",
+            "name": "ACTIVEMQ_MESSAGE_STATS_DELIVER_GET_DETAILS_RATE",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Delivered No Ack",
+            "displayName": "ActiveMQ - Messages Delivered No Ack",
+            "displayNameShort": "AMQ - Msg Del NoAck",
+            "name": "ACTIVEMQ_MESSAGE_STATS_DELIVER_NO_ACK",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Delivered No Ack Rate",
+            "displayName": "ActiveMQ - Messages Delivered No Ack Rate",
+            "displayNameShort": "AMQ - Msg Del NoAck R",
+            "name": "ACTIVEMQ_MESSAGE_STATS_DELIVER_NO_ACK_DETAILS_RATE",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Published",
+            "displayName": "ActiveMQ - Messages Published",
+            "displayNameShort": "AMQ - Msg Pub",
+            "name": "ACTIVEMQ_MESSAGE_STATS_PUBLISH",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Published Rate",
+            "displayName": "ActiveMQ - Messages Published Rate",
+            "displayNameShort": "AMQ - Msg Pub Rt",
+            "name": "ACTIVEMQ_MESSAGE_STATS_PUBLISH_DETAILS_RATE",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Redelivered",
+            "displayName": "ActiveMQ - Messages Redelivered",
+            "displayNameShort": "AMQ - Msg Redel",
+            "name": "ACTIVEMQ_MESSAGE_STATS_REDELIVER",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Messages Redelivered Rate",
+            "displayName": "ActiveMQ - Messages Redelivered Rate",
+            "displayNameShort": "AMQ - Msg Redel Rt",
+            "name": "ACTIVEMQ_MESSAGE_STATS_REDELIVER_DETAILS_RATE",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Total Channels",
+            "displayName": "ActiveMQ - Total Channels",
+            "displayNameShort": "AMQ - Tot Channels",
+            "name": "ACTIVEMQ_OBJECT_TOTALS_CHANNELS",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Total Connections",
+            "displayName": "ActiveMQ - Total Connections",
+            "displayNameShort": "AMQ - Tot Connect",
+            "name": "ACTIVEMQ_OBJECT_TOTALS_CONNECTIONS",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Total Consumers",
+            "displayName": "ActiveMQ - Total Consumers",
+            "displayNameShort": "AMQ - Tot Consumers",
+            "name": "ACTIVEMQ_OBJECT_TOTALS_CONSUMERS",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Total Exchanges",
+            "displayName": "ActiveMQ - Total Exchanges",
+            "displayNameShort": "AMQ - Tot Exchanges",
+            "name": "ACTIVEMQ_OBJECT_TOTALS_EXCHANGES",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Total Queues",
+            "displayName": "ActiveMQ - Total Queues",
+            "displayNameShort": "AMQ - Total Queues",
+            "name": "ACTIVEMQ_OBJECT_TOTALS_QUEUES",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Queue Total Messages",
+            "displayName": "ActiveMQ - Queue Total Messages",
+            "displayNameShort": "AMQ - Q Tot Msg",
+            "name": "ACTIVEMQ_QUEUE_TOTALS_MESSAGES",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Queue Total Messages Rate",
+            "displayName": "ActiveMQ - Queue Total Messages Rate",
+            "displayNameShort": "AMQ - Q Tot Msg Rt",
+            "name": "ACTIVEMQ_QUEUE_TOTALS_MESSAGES_DETAILS_RATE",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Queue Total Messages Unacknowledged",
+            "displayName": "ActiveMQ - Queue Total Messages Unacknowledged",
+            "displayNameShort": "AMQ - Q Tot Msg UAck",
+            "name": "ACTIVEMQ_QUEUE_TOTALS_MESSAGES_UNACKNOWLEDGED",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Queue Total Messages Unacknowledged Details Rate",
+            "displayName": "ActiveMQ - Queue Total Messages Unacknowledged Details Rate",
+            "displayNameShort": "AMQ - Q Tot Msg Uk R",
+            "name": "ACTIVEMQ_QUEUE_TOTALS_MESSAGES_UNACKNOWLEDGED_DETAILS_RATE",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Queue Total Messages Ready",
+            "displayName": "ActiveMQ - Queue Total Messages Ready",
+            "displayNameShort": "AMQ - Q Tot Msg Ready",
+            "name": "ACTIVEMQ_QUEUE_TOTALS_MESSAGES_READY",
+            "unit": "number"
+        },
+        {
+            "description": "ActiveMQ - Queue Total Messages Ready Rate",
+            "displayName": "ActiveMQ - Queue Total Messages Ready Rate",
+            "displayNameShort": "AMQ - Q Tot Msg R Rt",
+            "name": "ACTIVEMQ_QUEUE_TOTALS_MESSAGES_READY_DETAILS_RATE",
+            "unit": "number"
+        }
+    ]
+}
